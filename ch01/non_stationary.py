@@ -4,7 +4,7 @@ from bandit import Agent
 
 
 class NonStatBandit:
-    def __init__(self, arms=10):
+    def __init__(self, arms:int=10):
         self.arms = arms
         self.rates = np.random.rand(arms)
 
@@ -18,7 +18,7 @@ class NonStatBandit:
 
 
 class AlphaAgent:
-    def __init__(self, epsilon, alpha, actions=10):
+    def __init__(self, epsilon:float, alpha, actions=10):
         self.epsilon = epsilon
         self.Qs = np.zeros(actions)
         self.alpha = alpha
