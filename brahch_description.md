@@ -1,2 +1,2 @@
 # custom_library
-- Do not merge this branch into master. This branch is used only for better understanding of this project
+- Experimental branch. Do not merge this branch into master. This branch is used only for better understanding of this project
